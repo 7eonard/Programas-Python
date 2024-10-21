@@ -175,20 +175,20 @@
 # Libro: *
 # Fin. Se leyeron 2 líneas completas.
 
-lineas=0
-dígitos="0123456789"
-cantidadDigitos=0
-Título=input("Título del libro: ")
-while Título!="*":
-    for caracter in Título:
-        if caracter in dígitos:
-            cantidadDigitos+=1
-    if Título=="/":
-        lineas+=1
-        print("Aparecen ", cantidadDigitos, " dígitos en la línea")
-        cantidadDigitos=0
-    Título=input("Título: ")
-print("Se leyeron ",lineas," líneas completas")
+# lineas=0
+# dígitos="0123456789"
+# cantidadDigitos=0
+# Título=input("Título del libro: ")
+# while Título!="*":
+#     for caracter in Título:
+#         if caracter in dígitos:
+#             cantidadDigitos+=1
+#     if Título=="/":
+#         lineas+=1
+#         print("Aparecen ", cantidadDigitos, " dígitos en la línea")
+#         cantidadDigitos=0
+#     Título=input("Título: ")
+# print("Se leyeron ",lineas," líneas completas")
 
 #12 Solicitar al usuario que ingrese una frase y luego informar cuál fue la palabra más larga 
 # (en caso de haber más de una, mostrar la primera) y cuántas palabras había. Precondición: se tomará 
